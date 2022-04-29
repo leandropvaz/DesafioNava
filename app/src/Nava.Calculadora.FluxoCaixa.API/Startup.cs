@@ -30,8 +30,7 @@ namespace Nava.Calculadora.FluxoCaixa.API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+    public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
             services.AddControllers()
@@ -51,7 +50,7 @@ namespace Nava.Calculadora.FluxoCaixa.API
                 {
                     Version = "v1",
                     Title = "Desafio Nava - Carrefour",
-                    Description = "API responsável por gerenciar os lançamentos de fluxo diário.",
+                    Description = "API responsï¿½vel por gerenciar os lanï¿½amentos de fluxo diï¿½rio.",
                     Contact = new OpenApiContact
                     {
                         Name = "Leandro Pacheco Vaz",
@@ -86,8 +85,7 @@ namespace Nava.Calculadora.FluxoCaixa.API
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {

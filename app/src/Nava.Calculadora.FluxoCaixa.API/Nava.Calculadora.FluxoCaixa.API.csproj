@@ -1,26 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-    <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  <PropertyGroup>
+  <TargetFramework>net5.0</TargetFramework>
+  <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileFile>..\..\Dockerfile</DockerfileFile>
-     
-     
   </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.16" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
-     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
-     
+  <ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.16" />
+  <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+  <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
   </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\Nava.Calculadora.FluxoCaixa.Application\Nava.Calculadora.FluxoCaixa.Application.csproj" />
-        <ProjectReference Include="..\Nava.Calculadora.FluxoCaixa.Infra.CrossCutting\Nava.Calculadora.FluxoCaixa.Infra.CrossCutting.IoC.csproj" />
-     
+  <ItemGroup>
+  <ProjectReference Include="..\Nava.Calculadora.FluxoCaixa.Application\Nava.Calculadora.FluxoCaixa.Application.csproj" />
+  <ProjectReference Include="..\Nava.Calculadora.FluxoCaixa.Infra.CrossCutting\Nava.Calculadora.FluxoCaixa.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 </Project>
