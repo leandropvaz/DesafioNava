@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nava.Calculadora.FluxoCaixa.API", "Nava.Calculadora.FluxoCaixa.API\Nava.Calculadora.FluxoCaixa.API.csproj", "{E04E5A07-A149-4D50-9BD5-C5EE70068F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{B5AF1183-FDCF-4744-99C8-32FA9C4B468C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{902B2CEB-0153-4AC3-A28B-99457D4D9206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{75B141D1-233B-4AB3-BB50-FB1BFD3987EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{048B985F-F498-4823-A88B-FDB3E6A5FBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Testing", "4 - Testing", "{FE55FD3C-CA7B-435F-9045-E6CCA25E3656}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - CrossCutting", "3.1 - CrossCutting", "{28832DDF-0BFD-4381-9803-C879BFC449AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Repository", "3.2 - Repository", "{3419448D-B7C4-4623-BEE0-CAB36306D936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nava.Calculadora.FluxoCaixa.Application", "Nava.Calculadora.FluxoCaixa.Application\Nava.Calculadora.FluxoCaixa.Application.csproj", "{19C4DCAA-032B-4AEE-8B1C-E39865D1BA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nava.Calculadora.FluxoCaixa.Domain", "Nava.Calculadora.FluxoCaixa.Domain\Nava.Calculadora.FluxoCaixa.Domain.csproj", "{5D635D9C-64D8-4070-B307-16C1113AE49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nava.Calculadora.FluxoCaixa.Infra.CrossCutting.IoC", "Nava.Calculadora.FluxoCaixa.Infra.CrossCutting\Nava.Calculadora.FluxoCaixa.Infra.CrossCutting.IoC.csproj", "{30972E42-2890-4ECC-A867-B8041CE9AA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nava.Calculadora.FluxoCaixa.Infra.Repository", "Nava.Calculadora.FluxoCaixa.Infra.Repository\Nava.Calculadora.FluxoCaixa.Infra.Repository.csproj", "{C194D1F6-98FE-40B5-8E4D-2CF20A012751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nava.Calculadora.FluxoCaixa.Testing", "Nava.Calculadora.FluxoCaixa.Testing\Nava.Calculadora.FluxoCaixa.Testing.csproj", "{5775DD2B-8244-4B28-BC4B-69BFAD251E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E04E5A07-A149-4D50-9BD5-C5EE70068F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04E5A07-A149-4D50-9BD5-C5EE70068F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04E5A07-A149-4D50-9BD5-C5EE70068F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04E5A07-A149-4D50-9BD5-C5EE70068F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C4DCAA-032B-4AEE-8B1C-E39865D1BA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C4DCAA-032B-4AEE-8B1C-E39865D1BA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C4DCAA-032B-4AEE-8B1C-E39865D1BA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C4DCAA-032B-4AEE-8B1C-E39865D1BA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D635D9C-64D8-4070-B307-16C1113AE49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D635D9C-64D8-4070-B307-16C1113AE49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D635D9C-64D8-4070-B307-16C1113AE49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D635D9C-64D8-4070-B307-16C1113AE49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30972E42-2890-4ECC-A867-B8041CE9AA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30972E42-2890-4ECC-A867-B8041CE9AA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30972E42-2890-4ECC-A867-B8041CE9AA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30972E42-2890-4ECC-A867-B8041CE9AA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C194D1F6-98FE-40B5-8E4D-2CF20A012751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C194D1F6-98FE-40B5-8E4D-2CF20A012751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C194D1F6-98FE-40B5-8E4D-2CF20A012751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C194D1F6-98FE-40B5-8E4D-2CF20A012751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5775DD2B-8244-4B28-BC4B-69BFAD251E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5775DD2B-8244-4B28-BC4B-69BFAD251E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5775DD2B-8244-4B28-BC4B-69BFAD251E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5775DD2B-8244-4B28-BC4B-69BFAD251E44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E04E5A07-A149-4D50-9BD5-C5EE70068F5D} = {B5AF1183-FDCF-4744-99C8-32FA9C4B468C}
+		{28832DDF-0BFD-4381-9803-C879BFC449AB} = {048B985F-F498-4823-A88B-FDB3E6A5FBB5}
+		{3419448D-B7C4-4623-BEE0-CAB36306D936} = {048B985F-F498-4823-A88B-FDB3E6A5FBB5}
+		{19C4DCAA-032B-4AEE-8B1C-E39865D1BA7A} = {902B2CEB-0153-4AC3-A28B-99457D4D9206}
+		{5D635D9C-64D8-4070-B307-16C1113AE49D} = {75B141D1-233B-4AB3-BB50-FB1BFD3987EF}
+		{30972E42-2890-4ECC-A867-B8041CE9AA81} = {28832DDF-0BFD-4381-9803-C879BFC449AB}
+		{C194D1F6-98FE-40B5-8E4D-2CF20A012751} = {3419448D-B7C4-4623-BEE0-CAB36306D936}
+		{5775DD2B-8244-4B28-BC4B-69BFAD251E44} = {FE55FD3C-CA7B-435F-9045-E6CCA25E3656}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2080B88D-5DBD-4F0C-9764-9BB81084B964}
+	EndGlobalSection
+EndGlobal
