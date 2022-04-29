@@ -26,4 +26,9 @@ Funcionalidades:
 ## Cobertura de testes
 - **Code Coverage**: Visando a qualidade código está coberto em 98,21% 
 
+## Rodando ambiente com Docker
+- Acesse o diretório em que o repositório foi clonado através do terminal e execute os comandos:
+- docker-compose build para compilar imagens, criar containers etc.
+
+
 
