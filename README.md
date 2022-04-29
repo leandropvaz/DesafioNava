@@ -23,12 +23,15 @@ Funcionalidades:
 ## Environment variables
 - **SECRET_KEY**: Hash utilizada para gerar Token de autenticação
 - 
-## User credentials
+## User Credentials
+- **UserName**: Leandro
+- **Password**: 123456
 
-- **UserName **: Leandro
-- **Password **: 123456
+## Token Credentials
+- A autenticação é implementada por meio de tokens de acesso JWT. A API retorna um token de curta duração (JWT), que expira em 1 hora.
+- Os serviços de lançamentos de créditos e débitos e geraçao do consolidado requer autenticação.
 
-## Cobertura de testes
+## Cobertura de Testes
 - **Code Coverage**: Visando a qualidade código está coberto em 98,21% 
 
 ## Rodando ambiente com Docker
