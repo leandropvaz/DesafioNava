@@ -23,4 +23,7 @@ Funcionalidades:
 ## Environment variables
 - **SECRET_KEY**: Hash utilizada para gerar Token de autenticação
 
+## Cobertura de testes
+- **Code Coverage**: Visando a qualidade código está coberto em 98,21% 
+
 
