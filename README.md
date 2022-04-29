@@ -22,6 +22,11 @@ Funcionalidades:
 
 ## Environment variables
 - **SECRET_KEY**: Hash utilizada para gerar Token de autenticação
+- 
+## User credentials
+
+- **UserName **: Leandro
+- **Password **: 123456
 
 ## Cobertura de testes
 - **Code Coverage**: Visando a qualidade código está coberto em 98,21% 
@@ -29,6 +34,3 @@ Funcionalidades:
 ## Rodando ambiente com Docker
 - Acesse o diretório em que o repositório foi clonado através do terminal e execute os comandos:
 - docker-compose build para compilar imagens, criar containers etc.
-
-
-
