@@ -12,6 +12,7 @@ using Microsoft.OpenApi.Models;
 using Nava.Calculadora.FluxoCaixa.Infra.CrossCutting.IoC;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -110,6 +111,12 @@ namespace Nava.Calculadora.FluxoCaixa.API
             {
                 endpoints.MapControllers();
             });
+
+            var cultureInfo = new CultureInfo("pt-BR");
+            cultureInfo.NumberFormat.CurrencySymbol = "$";
+
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
         }
     }
 }
